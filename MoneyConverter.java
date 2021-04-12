@@ -34,7 +34,7 @@ public class MoneyConverter {
 
     public static void main(String[] args) throws Exception {
         Scanner currencyInput = new Scanner(System.in);
-	System.out.print("API key:- ")
+	System.out.print("API key:- ");
 	String apiKey = currencyInput.nextLine();
         System.out.print("Which currency do you want to convert?:- ");
         String firstCurrency = currencyInput.nextLine();
